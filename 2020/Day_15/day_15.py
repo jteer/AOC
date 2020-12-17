@@ -10,11 +10,6 @@ script_dir = os.path.dirname(__file__)
 abs_file_path = os.path.join(script_dir, rel_path)
 input_data = open(abs_file_path).read().splitlines()
 
-
-def recite(total_turns):
-    pass
-
-
 @timer
 def part1(numbers):
     total_turns = 2020
